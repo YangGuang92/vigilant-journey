@@ -17,6 +17,6 @@ class sayHello
      */
     public function sayHello()
     {
-        echo 'hello world!';
+        echo 'hello world! today is '.date('Y-m-d');
     }
 }
